@@ -1,95 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 NOT FOUND</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Space+Mono:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+  <!-- 
+font-family: 'Inconsolata', monospace;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Work Sans', sans-serif; -->
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      background: #FFF;
+    }
 
-    <title>Devchallenges</title>
+    .container {
+      width: 1440px;
+      margin: 0 auto;
+      border: 1px solid black;
+    }
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+    .header {
+      padding: 40px 0 0 77px;
+      color: #333;
+      font-family: Inconsolata;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -1.92px;
+    }
 
-      ul {
-        padding-left: 24px;
-      }
+    .flex {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 265px;
+      padding-bottom: 349px;
+    }
 
-      li {
-        margin-bottom: 8px;
-      }
+    /* .image {
+      width: 50%;
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
+    } */
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
+    .image>img {
+      width: 540px;
+      height: 420px;
+      padding-left: 77px;
+      padding-right: 118px;
+    }
 
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
+    .content {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
 
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
+    .content>h1 {
+      width: 586px;
+      color: #333;
+      font-family: Space Mono;
+      font-size: 64px;
+      font-weight: 700;
+      letter-spacing: -2.24px;
+      padding-bottom: 36px;
 
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    }
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    .content>p {
+      width: 381px;
+      color: #4F4F4F;
+      font-family: Space Mono;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: -0.84px;
+      padding-bottom: 64px;
+    }
+
+    .footer {
+      color: #BDBDBD;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration-line: underline;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .content>button {
+      padding: 24px 10px;
+      background-color: #333;
+      color: #FFF;
+      font-family: Space Mono;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: -0.49px;
+      width: 216px;
+      height: 68px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <p>404 NOT FOUND</p>
+    </div>
+    <div class="flex">
+      <div class="image">
+        <img src="./Scarecrow.png" alt="">
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="content">
+        <h1>I have bad news for you</h1>
+        <p>The page you are looking <br>
+          for might be removed or is <br>
+          temporarily unavailable</p>
+        <button>BACK TO HOMEPAGE</button>
+      </div>
     </div>
-  </body>
+    <div class="footer">
+      <p>created by Md Enayetur Rahman - devChallenges.io</p>
+    </div>
+  </div>
+</body>
+
 </html>
